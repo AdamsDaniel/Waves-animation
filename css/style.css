@@ -34,6 +34,10 @@
     position: relative;
   }
 
+  .header-bottom{
+    height: 50vh;
+  }
+
   header h1 {
     border: 5px solid white;
     padding: 10px 50px;
