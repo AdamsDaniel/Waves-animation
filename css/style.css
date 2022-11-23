@@ -62,6 +62,18 @@
     animation: moveWave1 3s ease-in-out infinite alternate;
   }
 
+  .box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    } 
+
+
+
+
+
 
 
   /* ANIMATIONS */   /* ANIMATIONS */  /* ANIMATIONS */   /* ANIMATIONS */   /* ANIMATIONS */
