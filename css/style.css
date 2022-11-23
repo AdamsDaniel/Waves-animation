@@ -1,12 +1,99 @@
+root{
+    --cor-primaria:#ffcc00;
+    --cor-secundaria:#001220;
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
     scrollbar-width: none;
     scroll-behavior: smooth;
+    
   }
 
-  h1 {
+
+/* ==========================================TESTES=================================== */
+
+header{
+    background:var(--cor-secundaria);
+}
+
+ul{
+    display: flex;
+    padding-left: 58%;
+    list-style-type: none;
+}
+
+li{
+    color: white;
+    font-size: max(20px, 1vw);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    text-align: center;
+    z-index: 1;
+    position: sticky;
+    padding: 23px 70px 23px 70px;
     
+}
+li:hover{
+    background-color:#ffcc00;
+    color:#001220;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor:pointer;
+    
+}
+
+.pulse {
+
+  
+  box-shadow: 0 0 0 rgba(204,169,44, 0.7);
+  animation: pulse 1s infinite;
+}
+
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 20px rgba(204,169,44, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
+    box-shadow: 0 0 0 0 rgba(255,255,255, 0.4)
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 20px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 20px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+  }
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================TESTES=================================== */
+  h1{
+    cursor:default;
     color: white;
     font-size: max(60px, 4vw);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -16,8 +103,7 @@
     position: absolute;
   }
 
-
-  header, section {
+  .header, section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +115,7 @@
     background: #6c0baa;
   }
 
-  header {
+  .header {
     background: #6c0baa;
     position: relative;
   }
@@ -38,7 +124,7 @@
     height: 50vh;
   }
 
-  header h1 {
+  div h1 {
     border: 5px solid white;
     padding: 10px 50px;
     margin: 50px;
@@ -65,18 +151,6 @@
   .wave-1 {
     animation: moveWave1 3s ease-in-out infinite alternate;
   }
-
-  .box{
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
-    margin: 0;
-    padding: 0;
-    } 
-
-
-
-
 
 
 
@@ -107,7 +181,12 @@
   }
 
   @keyframes moveWave3 {
-    from {
+    from {@media screen and (min-width: 800px) {
+  .container {
+    margin: 1em 2em;
+  }
+}
+
       transform: translateX(-110px);
     }
   }
@@ -169,3 +248,6 @@
       transform: translateX(-260px);
     }
   }
+  
+  
+
