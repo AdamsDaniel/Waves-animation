@@ -11,7 +11,13 @@ root{
     scrollbar-width: none;
     scroll-behavior: smooth;
     
+    
+    
   }
+
+    
+
+
 
 
 /* ==========================================TESTES=================================== */
@@ -33,7 +39,7 @@ li{
     text-align: center;
     z-index: 1;
     position: sticky;
-    padding: 23px 70px 23px 70px;
+    padding: 23px 67px 23px 67px;
     
 }
 li:hover{
@@ -250,4 +256,3 @@ a:hover{
   }
   
   
-
