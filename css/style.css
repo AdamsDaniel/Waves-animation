@@ -58,8 +58,6 @@ a:hover{
 }
 
 .pulse {
-
-  
   box-shadow: 0 0 0 rgba(204,169,44, 0.7);
   animation: pulse 1s infinite;
 }
@@ -119,7 +117,10 @@ a:hover{
     height: 100vh;
   }
 
-
+  img{
+    position: relative;
+    z-index:10;
+  }
 
   section {
     background: #6c0baa;
