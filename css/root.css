@@ -1,0 +1,11 @@
+root{
+    --cor-primaria:#ffcc00;
+    --cor-secundaria:#001220;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
