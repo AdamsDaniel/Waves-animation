@@ -32,37 +32,6 @@ a:hover{
     
 }
 
-.pulse {
-  box-shadow: 0 0 0 rgba(204,169,44, 0.7);
-  animation: pulse 1s infinite;
-}
-
-
-@-webkit-keyframes pulse {
-  0% {
-    -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
-  }
-  70% {
-      -webkit-box-shadow: 0 0 0 20px rgba(204,169,44, 0);
-  }
-  100% {
-      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
-  }
-}
-@keyframes pulse {
-  0% {
-    -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0.4);
-    box-shadow: 0 0 0 0 rgba(255,255,255, 0.4)
-  }
-  70% {
-      -moz-box-shadow: 0 0 0 20px rgba(204,169,44, 0);
-      box-shadow: 0 0 0 20px rgba(204,169,44, 0);
-  }
-  100% {
-      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
-      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
-  }
-}
 
 
 
@@ -134,105 +103,11 @@ a:hover{
     overflow: scroll hidden;
   }
 
-  .wave-1 {
-    animation: moveWave1 3s ease-in-out infinite alternate;
-  }
 
 
 
   /* ANIMATIONS */   /* ANIMATIONS */  /* ANIMATIONS */   /* ANIMATIONS */   /* ANIMATIONS */
 
-  #wave1 {
-    animation: moveWave1 3s ease-in-out infinite alternate;
-  }
-
-  @keyframes moveWave1 {
-    from {
-      transform: translateX(-200px);
-    }
-  }
-
-  #wave2 {
-    animation: moveWave2 2s 1.2s ease-in-out infinite alternate;
-  }
-
-  @keyframes moveWave2 {
-    from {
-      transform: translateX(-110px);
-    }
-  }
-
-  #wave3 {
-    animation: moveWave3 3s 0.7s ease-in-out infinite alternate;
-  }
-
-  @keyframes moveWave3 {
-    from {@media screen and (min-width: 800px) {
-  .container {
-    margin: 1em 2em;
-  }
-}
-
-      transform: translateX(-110px);
-    }
-  }
-  #wave4 {
-    animation: moveWave4 4s ease-in-out infinite alternate;
-  }
-
-  @keyframes moveWave4 {
-    from {
-      transform: translateX(-230px);
-    }
-  }
-
-  #wave5 {
-    animation: moveWave5 3s 1.2s ease-in-out infinite alternate;
-  }
-
-  @keyframes moveWave5 {
-    from {
-      transform: translateX(-20px);
-    }
-  }
-
-  #wave6 {
-    animation: moveWave6 1s 0.7s ease-in-out infinite alternate;
-  }
-
-  @keyframes moveWave6 {
-    from {
-      transform: translateX(-120px);
-    }
-  }
-  #wave7 {
-    animation: moveWave7 2s ease-in-out infinite alternate;
-  }
-
-  @keyframes moveWave7 {
-    from {
-      transform: translateX(-300px);
-    }
-  }
-
-  #wave8 {
-    animation: moveWave8 3s 1.2s ease-in-out infinite alternate;
-  }
-
-  @keyframes moveWave8 {
-    from {
-      transform: translateX(-80px);
-    }
-  }
-
-  #wave9 {
-    animation: moveWave9 3s 0.7s ease-in-out infinite alternate;
-  }
-
-  @keyframes moveWave9 {
-    from {
-      transform: translateX(-260px);
-    }
-  }
+  
   
   
