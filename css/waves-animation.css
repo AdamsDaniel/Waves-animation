@@ -1,0 +1,45 @@
+@keyframes moveLeft {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+#wave1 {
+    animation: moveLeft 5s linear infinite;
+}
+#wave2 {
+    animation: moveRight 3s linear infinite;
+}
+#wave3 {
+    animation: moveLeft 7s linear infinite;
+}
+#wave4 {
+    animation: moveRight 5s linear infinite;
+}
+#wave5 {
+    animation: moveLeft 6s linear infinite;
+}
+#wave6 {
+    animation: moveRight 4s linear infinite;
+}
+#wave7 {
+    animation: moveLeft 5.4s linear infinite;
+}
+#wave8 {
+    animation: moveRight 4.2s linear infinite;
+}
+#wave9 {
+    animation: moveRight 6s linear infinite;
+}
