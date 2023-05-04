@@ -1,45 +1,57 @@
-@keyframes moveLeft {
+@keyframes move {
     0% {
-        transform: translateX(0);
+        transform: translateX(-30%);
     }
-    100% {
-        transform: translateX(-100%);
-    }
-}
 
-@keyframes moveRight {
-    0% {
+    50% {
         transform: translateX(0);
     }
+
     100% {
-        transform: translateX(100%);
+        transform: translateX(-30%);
     }
 }
 
 #wave1 {
-    animation: moveLeft 5s linear infinite;
+    animation: move 20s infinite;
 }
+
 #wave2 {
-    animation: moveRight 3s linear infinite;
+    animation: move 15s infinite;
+    animation-delay: 1s;
 }
+
 #wave3 {
-    animation: moveLeft 7s linear infinite;
+    animation: move 17s infinite;
+    animation-delay: 0s;
 }
+
 #wave4 {
-    animation: moveRight 5s linear infinite;
+    animation: move 19s infinite;
+    animation-delay: 0s;
 }
+
 #wave5 {
-    animation: moveLeft 6s linear infinite;
+    animation: move 21s infinite;
+    animation-delay: 0s;
 }
+
 #wave6 {
-    animation: moveRight 4s linear infinite;
+    animation: move 16s infinite;
+    animation-delay: 0s;
 }
+
 #wave7 {
-    animation: moveLeft 5.4s linear infinite;
+    animation: move 18s infinite;
+    animation-delay: 0s;
 }
+
 #wave8 {
-    animation: moveRight 4.2s linear infinite;
+    animation: move 20s infinite;
+    animation-delay: 0s;
 }
+
 #wave9 {
-    animation: moveRight 6s linear infinite;
+    animation: move 17s infinite;
+    animation-delay: 0s;
 }
