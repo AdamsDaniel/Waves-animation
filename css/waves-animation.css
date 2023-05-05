@@ -1,3 +1,19 @@
+.waves {
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    position: relative;
+    overflow: scroll hidden;
+}
+
+
+/*ANIMAÇÕES*/
+/*ANIMAÇÕES*/
+/*ANIMAÇÕES*/
+/*ANIMAÇÕES*/
+
 @keyframes move {
     0% {
         transform: translateX(-30%);
@@ -18,7 +34,7 @@
 
 #wave2 {
     animation: move 15s infinite;
-    animation-delay: 1s;
+    animation-delay: 0s;
 }
 
 #wave3 {

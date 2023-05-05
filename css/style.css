@@ -1,96 +1,94 @@
-header{
-    background:var(--cor-secundaria);
-    
+header {
+  background: var(--cor-secundaria);
+
 }
 
-ul{
-    display: flex;
-    justify-content:flex-end;
-    list-style-type: none;
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
 }
 
-li{
-    color: white;
-    font-size: max(20px, 1vw);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    text-align: center;
-    z-index: 1;
-    position: sticky;
-    padding: 23px 67px 23px 67px;
-    
-}
-li:hover{
-    background-color:#ffcc00;
-    color:#001220;
+li {
+  color: white;
+  font-size: max(20px, 1vw);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  z-index: 1;
+  position: sticky;
+  padding: 23px 67px 23px 67px;
+
 }
 
-a{
-    text-decoration: none;
+li:hover {
+  background-color: #ffcc00;
+  color: #001220;
 }
-a:hover{
-    cursor:pointer;
-    
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+
 }
 
 
 /* ==========================================TESTES=================================== */
-  h1{
-    cursor:default;
-    color: white;
-    font-size: max(60px, 4vw);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+h1 {
+  cursor: default;
+  color: white;
+  font-size: max(60px, 4vw);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    text-align: center;
-    z-index: 1;
-    position: absolute;
-  }
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+}
 
-  .header, section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 100vh;
-  }
+.header,
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
 
-  img{
-    position: relative;
-    z-index:10;
-  }
+img {
+  position: relative;
+  z-index: 10;
+}
 
-  section {
-    background: #6c0baa;
-  }
+section {
+  background: #6c0baa;
+}
 
-  .header {
-    background: #6c0baa;
-    position: relative;
-  }
+.header {
+  background: #6c0baa;
+  position: relative;
+}
 
-  .header-bottom{
-    height: 50vh;
-  }
+.header-bottom {
+  height: 50vh;
+}
 
-  div h1 {
-    border: 5px solid white;
-    padding: 10px 50px;
-    margin: 50px;
-    z-index: 2;
-  }
+/*Caixa em volta do nome*/
+div h1 {
+  border: 5px solid white;
+  padding: 10px 50px;
+  margin: 50px;
+  z-index: 2;
+}
 
-  .flex{
-    overflow: scroll hidden;
-    overflow-x: hidden;
-    /* position: absolute; */
-    background-color:#6c0baa;
-  }
+.flex {
+  overflow: scroll hidden;
+  overflow-x: hidden;
+  /* position: absolute; */
+  background-color: #6c0baa;
+}
 
-  .waves {
-    /* position: absolute; */
-    bottom: 0;
-    left: 0;
-    right: 0;
-    overflow: hidden;
-    position: relative;
-    overflow: scroll hidden;
-  }
+.image-container {
+  text-align: center;
+}
